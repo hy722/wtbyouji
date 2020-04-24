@@ -1,0 +1,29 @@
+{
+  "name": "mfw_serve",
+  "version": "1.0.0",
+  "description": "mfw jiaoyou lvyou",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/1wh"
+  },
+  "keywords": [
+    "mfw",
+    "lvyou",
+    "jiaoyou"
+  ],
+  "author": "hy",
+  "license": "ISC",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  }
+}
